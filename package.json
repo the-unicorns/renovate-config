@@ -4,11 +4,11 @@
   "description": "The Unicorns Renovate Shareable Config",
   "main": "index.js",
   "repository": "git@github.com:the-unicorns/renovate-config.git",
-  "author": "Hans Jakob Emmel <hans.emmel@gmail.com>",
+  "author": "Hans Jakob Emmel",
   "license": "MIT",
   "scripts": {
     "cm": "git-cz",
-    "semantic-release": "semantic-release"
+    "release": "semantic-release"
   },
   "renovate-config": {
     "default": {
