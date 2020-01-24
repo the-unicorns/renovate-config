@@ -8,7 +8,9 @@
   "license": "MIT",
   "scripts": {
     "cm": "git-cz",
-    "release": "semantic-release"
+    "release": "semantic-release",
+    "test": "tape *.test.js",
+    "test:junit": "yarn test | tap-junit --output test-results -n result.xml"
   },
   "renovate-config": {
     "default": {
@@ -27,7 +29,10 @@
   "devDependencies": {
     "core-js": "3",
     "cz-conventional-changelog": "^3.0.2",
-    "semantic-release": "^16.0.3"
+    "renovate": "^19.107.3",
+    "semantic-release": "^16.0.3",
+    "tap-junit": "^3.1.0",
+    "tape": "^4.13.0"
   },
   "config": {
     "commitizen": {
