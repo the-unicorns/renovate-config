@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/the-unicorns/renovate-config/compare/v1.0.2...v1.0.3) (2020-01-25)
+
+
+### Bug Fixes
+
+* **npm:** fixing release ([fddbbc0](https://github.com/the-unicorns/renovate-config/commit/fddbbc0f887cc58b617e20875ffbd76e776ae6ca))
+
 ## [1.0.2](https://github.com/the-unicorns/renovate-config/compare/v1.0.1...v1.0.2) (2020-01-25)
 
 
