@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/the-unicorns/renovate-config/compare/v1.0.1...v1.0.2) (2020-01-25)
+
+
+### Bug Fixes
+
+* **npm:** fixing semantic version to publish to npm ([6251ff1](https://github.com/the-unicorns/renovate-config/commit/6251ff1560303bb0c62dc2c9698d876214ae18ad))
+
 ## [1.0.1](https://github.com/the-unicorns/renovate-config/compare/v1.0.0...v1.0.1) (2020-01-25)
 
 
