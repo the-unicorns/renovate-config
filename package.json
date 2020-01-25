@@ -12,6 +12,9 @@
     "test": "tape *.test.js",
     "test:junit": "yarn test | tap-junit --output test-results -n result.xml"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "renovate-config": {
     "default": {
       "extends": [
