@@ -1,6 +1,6 @@
 # The Unicorns Renovate Shareable Config
 
-An Renovate [Shareable Config](https://docs.renovatebot.com/config-presets/)
+> An Renovate [Shareable Config](https://docs.renovatebot.com/config-presets/)
 
 ## Usage
 
