@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/the-unicorns/renovate-config/compare/v1.0.3...v1.0.4) (2020-05-28)
+
+
+### Bug Fixes
+
+* **test:** changing path of renovate config-validator ([467b270](https://github.com/the-unicorns/renovate-config/commit/467b270f5c58dd45909e4c55e52157791587cd07))
+
 ## [1.0.3](https://github.com/the-unicorns/renovate-config/compare/v1.0.2...v1.0.3) (2020-01-25)
 
 
@@ -35,6 +42,3 @@
 ### Features
 
 * **renovate:** adding base configuration for renovate shareable config ([99f6a04](https://github.com/the-unicorns/renovate-config/commit/99f6a044a39c46dc2bde13a8128b3d334e828b36))
-
-
-
