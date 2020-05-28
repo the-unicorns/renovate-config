@@ -2,7 +2,7 @@ const test = require('tape');
 const pkgJson = require('./package.json');
 
 // Validate the config with Renovate
-require('renovate/bin/config-validator');
+require('renovate/dist/config-validator');
 
 const renovatePkgExtends = pkgJson['renovate-config'].default.extends;
 
