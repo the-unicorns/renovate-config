@@ -589,10 +589,10 @@ available-typed-arrays@^1.0.0, available-typed-arrays@^1.0.2:
   dependencies:
     array-filter "^1.0.0"
 
-aws-sdk@2.683.0:
-  version "2.683.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.683.0.tgz#c374374a443790a9520b1b00a3f0d42085c42891"
-  integrity sha512-mi1175pJMbQhCWhBEQ5ccQ3SDE+SJzbapuAQtcb7tdLLV7dPKf4zQXhpqK1uG0dysm8NhsNtgxwA2diYOKWlTg==
+aws-sdk@2.686.0:
+  version "2.686.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.686.0.tgz#c58c3874eff4c76c763d137df617e87971321eb7"
+  integrity sha512-QhYhJ5y8tUG5SlmY3CSf9RBaa3EFbta28oarOyiwceHKmY80cMCafRI1YypT6CVDx/q91dbnSNQfWhs0cZPbBQ==
   dependencies:
     buffer "4.9.1"
     events "1.1.1"
@@ -2568,10 +2568,10 @@ handlebars@^4.4.0:
   optionalDependencies:
     uglify-js "^3.1.4"
 
-handy-redis@1.8.1:
-  version "1.8.1"
-  resolved "https://registry.yarnpkg.com/handy-redis/-/handy-redis-1.8.1.tgz#7e5f0fc63bbe8e7ed7a4641e41d314b81a4cd6a0"
-  integrity sha512-/yA/8l351iLNC/hrbgiz5qrFZNSZYrIVu/lZK6sYPHV8QiKFUb9Xcb1pZjeO7Fe5Z/4Pn6l6KbaQrdkovWqSjQ==
+handy-redis@1.8.3:
+  version "1.8.3"
+  resolved "https://registry.yarnpkg.com/handy-redis/-/handy-redis-1.8.3.tgz#3c0a5b1ff40f8ff01bb7c06ce3e0d29871fe4c4d"
+  integrity sha512-TMC47NAaKuUC5jDMlCLNvNDIiNhyUO/ONEM7Xsbv3kiTwR9E1hsx7zctPH4fEoSKvro2gPs8bBb4+Nwscigz2A==
   dependencies:
     "@types/redis" "^2.8.14"
     redis "^3.0.2"
@@ -2775,6 +2775,11 @@ ignore-walk@^3.0.1:
   integrity sha512-m7o6xuOaT1aqheYHKf8W6J5pYH85ZI9w077erOzLje3JsB1gkafkAhHHY19dqjulgIZHFm32Cp5uNZgcQqdJKw==
   dependencies:
     minimatch "^3.0.4"
+
+ignore@5.1.8:
+  version "5.1.8"
+  resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.1.8.tgz#f150a8b50a34289b33e22f5889abd4d8016f0e57"
+  integrity sha512-BMpfD7PpiETpBl/A6S498BaIJ6Y/ABT93ETbby2fP00v4EbvPBXWEoaR1UBPKs3iR53pJY7EtZk5KACI57i1Uw==
 
 ignore@^5.1.4:
   version "5.1.4"
@@ -4352,10 +4357,27 @@ node-gyp@^5.0.2, node-gyp@^5.0.5:
     tar "^4.4.12"
     which "^1.3.1"
 
-node-html-parser@1.2.17:
-  version "1.2.17"
-  resolved "https://registry.yarnpkg.com/node-html-parser/-/node-html-parser-1.2.17.tgz#09c440d3a4b294435bcf0d02b66921afc086b111"
-  integrity sha512-bT+TuWhGuasJFTBeYNGaI43dREHfazdgpuQCY1HPpdBjnQhq0Rgkla6Not/8XvaYmE5mafDsUGFarBAMT/Stfw==
+node-gyp@^6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/node-gyp/-/node-gyp-6.1.0.tgz#64e31c61a4695ad304c1d5b82cf6b7c79cc79f3f"
+  integrity sha512-h4A2zDlOujeeaaTx06r4Vy+8MZ1679lU+wbCKDS4ZtvY2A37DESo37oejIw0mtmR3+rvNwts5B6Kpt1KrNYdNw==
+  dependencies:
+    env-paths "^2.2.0"
+    glob "^7.1.4"
+    graceful-fs "^4.2.2"
+    mkdirp "^0.5.1"
+    nopt "^4.0.1"
+    npmlog "^4.1.2"
+    request "^2.88.0"
+    rimraf "^2.6.3"
+    semver "^5.7.1"
+    tar "^4.4.12"
+    which "^1.3.1"
+
+node-html-parser@1.2.18:
+  version "1.2.18"
+  resolved "https://registry.yarnpkg.com/node-html-parser/-/node-html-parser-1.2.18.tgz#11b791fbac93477fec4d4e87967ee814254c89ef"
+  integrity sha512-DypklUSTuY9JDfYWz/NZYZA8mvgKmjRmHZe7at0H6O4KoXcs8QSpnH5mFk888gLsqXXRMVNmJGk/FdqaO9T1UQ==
   dependencies:
     he "1.1.1"
 
@@ -5255,12 +5277,13 @@ re-emitter@1.1.3:
   resolved "https://registry.yarnpkg.com/re-emitter/-/re-emitter-1.1.3.tgz#fa9e319ffdeeeb35b27296ef0f3d374dac2f52a7"
   integrity sha1-+p4xn/3u6zWycpbvDz03TawvUqc=
 
-re2@1.13.1:
-  version "1.13.1"
-  resolved "https://registry.yarnpkg.com/re2/-/re2-1.13.1.tgz#12ff1f9a3f930dc9ab004b975260244841fc204c"
-  integrity sha512-9OlqC9qwXD99Er2H7zMt98u9oSzD1ei/Ji3Bw9ObABHSob5gVH/aJV0dR60FNcUCQMQrnHOWCFfO+6uJsFU0dA==
+re2@1.14.0:
+  version "1.14.0"
+  resolved "https://registry.yarnpkg.com/re2/-/re2-1.14.0.tgz#727076590acfe868cf04e115a3a3f6c373ddd63b"
+  integrity sha512-TYogJmzni8zNVaw4gNOVORRTUaggLZwnMhJoTD0POKeACEoCxTWa9BAYehRnh3S1JUXIMEfcEUa7piiGEn71Zg==
   dependencies:
     nan "^2.14.1"
+    node-gyp "^6.1.0"
 
 read-chunk@^2.1.0:
   version "2.1.0"
@@ -5568,16 +5591,16 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@20.10.2:
-  version "20.10.2"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-20.10.2.tgz#cc999b21a4e30bc9d169e85103af89dd075bb710"
-  integrity sha512-OkBEhX0wjp718SAD/homJAUwQOm5TSn3T/g7bq8XG53at47zXLzWtkb+bOTO5EPyD3S0e3whO3UKN1P7jgwuDA==
+renovate@20.25.8:
+  version "20.25.8"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-20.25.8.tgz#dc47e5c152e1707dfa1af3a6698a2a120d587776"
+  integrity sha512-H+5ZTYaFYPSFkyUORzpzyAyX2npulq7XeP5BSCpimg4+kXPTaoMtEpCaMpS8yPwd5GBZARLpraW+g/KTLrHOuQ==
   dependencies:
     "@renovate/pep440" "0.4.1"
     "@sindresorhus/is" "2.1.1"
     "@snyk/ruby-semver" "2.2.0"
     "@yarnpkg/lockfile" "1.1.0"
-    aws-sdk "2.683.0"
+    aws-sdk "2.686.0"
     azure-devops-node-api "10.1.1"
     bunyan "1.8.12"
     cacache "15.0.3"
@@ -5597,8 +5620,9 @@ renovate@20.10.2:
     global-agent "2.1.8"
     got "9.6.0"
     handlebars "4.7.6"
-    handy-redis "1.8.1"
+    handy-redis "1.8.3"
     hasha "5.2.0"
+    ignore "5.1.8"
     ini "1.3.5"
     js-yaml "3.14.0"
     json-dup-key-validator "1.0.2"
@@ -5614,7 +5638,7 @@ renovate@20.10.2:
     moment "2.25.3"
     moment-timezone "0.5.31"
     node-emoji "1.10.0"
-    node-html-parser "1.2.17"
+    node-html-parser "1.2.18"
     p-all "2.1.0"
     p-map "4.0.0"
     parse-diff "0.7.0"
@@ -5635,7 +5659,7 @@ renovate@20.10.2:
     xmldoc "1.1.2"
     yawn-yaml "1.5.0"
   optionalDependencies:
-    re2 "1.13.1"
+    re2 "1.14.0"
 
 repeat-element@^1.1.2:
   version "1.1.3"
