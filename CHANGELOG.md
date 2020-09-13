@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/the-unicorns/renovate-config/compare/v1.0.4...v2.0.0) (2020-09-13)
+
+
+### Bug Fixes
+
+* change MasterIssue to dependencyDashboard and fix tests ([a0accf3](https://github.com/the-unicorns/renovate-config/commit/a0accf3679907ee681ba56d2e8345f7ba85ad233)), closes [#6729](https://github.com/the-unicorns/renovate-config/issues/6729)
+
+
+### BREAKING CHANGES
+
+* Change from masterIssue to depdencyDashboard
+
 ## [1.0.4](https://github.com/the-unicorns/renovate-config/compare/v1.0.3...v1.0.4) (2020-05-28)
 
 
