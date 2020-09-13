@@ -19,14 +19,14 @@
     "default": {
       "extends": [
         "config:base",
-        ":masterIssue",
-        ":masterIssueApproval",
+        ":dependencyDashboard",
+        ":dependencyDashboardApproval",
         ":labels(renovate, dependencies)",
         "group:monorepos",
         "group:recommended",
         ":semanticCommits"
       ],
-      "masterIssueAutoclose": true
+      "dependencyDashboardAutoclose": true
     }
   },
   "devDependencies": {
