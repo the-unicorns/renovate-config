@@ -36,7 +36,7 @@
     "@semantic-release/release-notes-generator": "9.0.2",
     "core-js": "3.9.1",
     "cz-conventional-changelog": "3.3.0",
-    "renovate": "24.95.1",
+    "renovate": "25.16.7",
     "semantic-release": "17.4.2",
     "tap-junit": "4.2.0",
     "tape": "5.2.2"
