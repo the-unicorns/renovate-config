@@ -874,11 +874,6 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.0.5.tgz#3d03acd3b3414cf67faf999aed11682ed121f22b"
   integrity sha512-90hiq6/VqtQgX8Sp0EzeIsv3r+ellbGj4URKj5j30tLlZvRUpnAe9YbYnjl3pJM93GyXU0tghHhvXHq+5rnCKA==
 
-"@types/node@14.6.2":
-  version "14.6.2"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.6.2.tgz#264b44c5a28dfa80198fc2f7b6d3c8a054b9491f"
-  integrity sha512-onlIwbaeqvZyniGPfdw/TEhKIh79pz66L1q06WUQqJLnAb6wbjvOtepLYTGHTqzdXgBYIE3ZdmqHDGsRsbBz7A==
-
 "@types/node@>= 8":
   version "13.5.0"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-13.5.0.tgz#4e498dbf355795a611a87ae5ef811a8660d42662"
@@ -8086,14 +8081,14 @@ supports-hyperlinks@^2.1.0:
     has-flag "^4.0.0"
     supports-color "^7.0.0"
 
-tap-junit@4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/tap-junit/-/tap-junit-4.2.0.tgz#885497c8543403392b0ffa6a09eaa9c5698de9f3"
-  integrity sha512-XqCMJJHS3YR3YJuO5BrqZgqQyVCs5IgEDe5eUIqjt4TYZdemxy3MjwS3sK7nipon+Cp52DSM/BHSaVNoY2U8fw==
+tap-junit@5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/tap-junit/-/tap-junit-5.0.1.tgz#d91111c6debc9db4d0a5b48e35e8e5d390732098"
+  integrity sha512-VSKr0y3T8vtxazjmYVEv3UuSq8ZhS8OlyIBMidNIVQaTuy8E9iXr+n0WGI53wov414h+FALj0/8tDSi4JsZ4zA==
   dependencies:
     minimist "1.2.5"
     tap-parser "10.1.0"
-    xmlbuilder2 "2.4.0"
+    xmlbuilder2 "2.4.1"
 
 tap-parser@10.1.0:
   version "10.1.0"
@@ -8869,15 +8864,15 @@ xdg-basedir@^3.0.0:
   resolved "https://registry.yarnpkg.com/xdg-basedir/-/xdg-basedir-3.0.0.tgz#496b2cc109eca8dbacfe2dc72b603c17c5870ad4"
   integrity sha1-SWsswQnsqNus/i3HK2A8F8WHCtQ=
 
-xmlbuilder2@2.4.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/xmlbuilder2/-/xmlbuilder2-2.4.0.tgz#fb6c5171bef1bcb984c88cfef5210e17b7b841cd"
-  integrity sha512-KrOVUGD65xTQ7ZA+GMQGdBSpe1Ufu5ylCQSYVk6QostySDkxPmAQ0WWIu7dR3JjLfVbF22RFQX7KyrZ6VTLcQg==
+xmlbuilder2@2.4.1:
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/xmlbuilder2/-/xmlbuilder2-2.4.1.tgz#899c783a833188c5a5aa6f3c5428a3963f3e479d"
+  integrity sha512-vliUplZsk5vJnhxXN/mRcij/AE24NObTUm/Zo4vkLusgayO6s3Et5zLEA14XZnY1c3hX5o1ToR0m0BJOPy0UvQ==
   dependencies:
     "@oozcitak/dom" "1.15.8"
     "@oozcitak/infra" "1.0.8"
     "@oozcitak/util" "8.3.8"
-    "@types/node" "14.6.2"
+    "@types/node" "*"
     js-yaml "3.14.0"
 
 xmldoc@1.1.2:
