@@ -39,7 +39,7 @@
     "renovate": "31.80.0",
     "semantic-release": "19.0.2",
     "tap-junit": "5.0.1",
-    "tape": "5.5.0"
+    "tape": "5.5.1"
   },
   "config": {
     "commitizen": {
