@@ -37,7 +37,7 @@
     "core-js": "3.21.0",
     "cz-conventional-changelog": "3.3.0",
     "renovate": "31.80.0",
-    "semantic-release": "19.0.2",
+    "semantic-release": "19.0.3",
     "tap-junit": "5.0.1",
     "tape": "5.5.1"
   },
