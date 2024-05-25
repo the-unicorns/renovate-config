@@ -10,6 +10,18 @@
 
 * Change from masterIssue to depdencyDashboard
 
+## [3.0.0](https://github.com/the-unicorns/renovate-config/compare/v2.0.0...v3.0.0) (2024-05-25)
+
+
+### ⚠ BREAKING CHANGES
+
+* Upgrade Renovate configuration and release
+
+### Features
+
+* Introduce release please ([0e30b18](https://github.com/the-unicorns/renovate-config/commit/0e30b1820ae173c80c73af9e92351ca8edc2e0a5))
+* Upgrade Renovate configuration and release ([36f634e](https://github.com/the-unicorns/renovate-config/commit/36f634e80b59f926caba9e48b69beb3c7689a401))
+
 ## [1.0.4](https://github.com/the-unicorns/renovate-config/compare/v1.0.3...v1.0.4) (2020-05-28)
 
 
