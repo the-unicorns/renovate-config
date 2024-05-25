@@ -1,4 +1,5 @@
 {
+  "description": "The Unicorns Renovate Shareable Config",
   "extends": [
     "config:base",
     ":dependencyDashboard",
