@@ -7,43 +7,16 @@
   "author": "Hans Jakob Emmel",
   "license": "MIT",
   "scripts": {
-    "cm": "git-cz",
-    "release": "semantic-release",
-    "test": "tape *.test.js",
-    "test:junit": "yarn test | tap-junit --output test-results -n result.xml"
+    "test": "tape *.test.js"
   },
   "publishConfig": {
     "access": "public"
   },
-  "renovate-config": {
-    "default": {
-      "extends": [
-        "config:base",
-        ":dependencyDashboard",
-        ":dependencyDashboardApproval",
-        ":labels(renovate, dependencies)",
-        "group:monorepos",
-        "group:recommended",
-        ":semanticCommits"
-      ],
-      "dependencyDashboardAutoclose": true
-    }
-  },
   "devDependencies": {
-    "@semantic-release/changelog": "6.0.1",
-    "@semantic-release/commit-analyzer": "9.0.2",
-    "@semantic-release/git": "10.0.1",
-    "@semantic-release/release-notes-generator": "10.0.3",
-    "core-js": "3.21.0",
-    "cz-conventional-changelog": "3.3.0",
-    "renovate": "31.80.0",
-    "semantic-release": "19.0.2",
-    "tap-junit": "5.0.1",
-    "tape": "5.5.1"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
+    "core-js": "3.37.1",
+    "renovate": "37.377.4",
+    "tap-junit": "5.0.3",
+    "tap-markdown": "^1.2.1",
+    "tape": "^5.7.5"
   }
 }
