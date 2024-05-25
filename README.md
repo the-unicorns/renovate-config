@@ -9,7 +9,7 @@ You can use it by specifying `@the-unicorns` in the extends section of your [Ren
 ```js
 {
   "extends": [
-    "@the-unicorns"  
+    "github>the-unicorns/renovate-config"
    ]
 }
 ```
