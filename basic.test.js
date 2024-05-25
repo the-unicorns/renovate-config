@@ -1,10 +1,10 @@
 const test = require("tape");
-const pkgJson = require("./package.json");
+const pkgJson = require("./default.json");
 
 // Validate the config with Renovate
 require("renovate/dist/config-validator");
 
-const renovatePkgExtends = pkgJson["renovate-config"].default.extends;
+const renovatePkgExtends = pkgJson.extends;
 
 const baseRules = [
   "config:base",
@@ -26,10 +26,7 @@ test("Check if extends is correct", function (t) {
 });
 
 test("Check master issue auto close", function (t) {
-  t.ok(
-    pkgJson["renovate-config"].default.dependencyDashboardAutoclose,
-    `Master issue auto close enabled`
-  );
+  t.ok(pkgJson.dependencyDashboardAutoclose, `Master issue auto close enabled`);
 
   t.end();
 });

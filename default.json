@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "config:base",
+    ":dependencyDashboard",
+    ":dependencyDashboardApproval",
+    ":labels(renovate, dependencies)",
+    "group:monorepos",
+    "group:recommended",
+    ":semanticCommits"
+  ],
+  "dependencyDashboardAutoclose": true
+}
