@@ -1,0 +1,3 @@
+{
+  "extends": ["github>the-unicorns/renovate-config"]
+}
