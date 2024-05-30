@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "core-js": "3.37.1",
-    "renovate": "37.377.4",
+    "renovate": "37.382.0",
     "tap-junit": "5.0.3",
     "tap-markdown": "^1.2.1",
     "tape": "^5.7.5"
