@@ -1,10 +1,10 @@
 # The Unicorns Renovate Shareable Config
 
-> An Renovate [Shareable Config](https://docs.renovatebot.com/config-presets/)
+> An Renovate [Shareable Config Preset](https://docs.renovatebot.com/config-presets/)
 
 ## Usage
 
-You can use it by specifying `@the-unicorns` in the extends section of your [Renovate configuration file](https://docs.renovatebot.com/configuration-options/).
+You can use it by specifying `github>the-unicorns/renovate-config` in the extends section of your [Renovate configuration file](https://docs.renovatebot.com/configuration-options/).
 
 ```js
 {
@@ -22,7 +22,7 @@ Please make sure to update tests as appropriate.
 
 ## Contributors
 
-- [View Contributors](https://github.com/the-unicorns/eslint-shareable-config/graphs/contributors)
+- [View Contributors](https://github.com/the-unicorns/renovate-config/graphs/contributors)
 
 ## License
 
