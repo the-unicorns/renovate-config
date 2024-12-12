@@ -13,7 +13,7 @@
     "access": "public"
   },
   "devDependencies": {
-    "core-js": "3.37.1",
+    "core-js": "3.39.0",
     "renovate": "39.62.6",
     "tap-junit": "5.0.4",
     "tap-markdown": "^1.2.1",
