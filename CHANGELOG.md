@@ -10,6 +10,13 @@
 
 * Change from masterIssue to depdencyDashboard
 
+## [3.0.1](https://github.com/the-unicorns/renovate-config/compare/v3.0.0...v3.0.1) (2024-12-12)
+
+
+### Miscellaneous Chores
+
+* release 3.0.1 ([c87d1a4](https://github.com/the-unicorns/renovate-config/commit/c87d1a4fe6d538b704df1a8bcade52a065cb76f7))
+
 ## [3.0.0](https://github.com/the-unicorns/renovate-config/compare/v2.0.0...v3.0.0) (2024-05-25)
 
 
