@@ -1,6 +1,6 @@
 {
   "name": "@the-unicorns/renovate-config",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "The Unicorns Renovate Shareable Config",
   "main": "index.js",
   "repository": "git@github.com:the-unicorns/renovate-config.git",
