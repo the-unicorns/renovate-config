@@ -9,5 +9,6 @@
     "group:recommended",
     ":semanticCommits"
   ],
-  "dependencyDashboardAutoclose": true
+  "dependencyDashboardAutoclose": true,
+  "forkProcessing": "enabled"
 }
