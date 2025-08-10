@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       core-js:
-        specifier: 3.39.0
-        version: 3.39.0
+        specifier: 3.45.0
+        version: 3.45.0
       renovate:
         specifier: 41.60.3
         version: 41.60.3(encoding@0.1.13)(typanion@3.14.0)
@@ -1207,8 +1207,8 @@ packages:
   core-js-pure@3.37.1:
     resolution: {integrity: sha512-J/r5JTHSmzTxbiYYrzXg9w1VpqrYt+gexenBE9pugeyhwPZTAEJddyiReJWsLO6uNQ8xJZFbod6XC7KKwatCiA==}
 
-  core-js@3.39.0:
-    resolution: {integrity: sha512-raM0ew0/jJUqkJ0E6e8UDtl+y/7ktFivgWvqw8dNSQeNWoSDLvQ1H/RN3aPXB9tBd4/FhyR4RDPGhsNIMsAn7g==}
+  core-js@3.45.0:
+    resolution: {integrity: sha512-c2KZL9lP4DjkN3hk/an4pWn5b5ZefhRJnAc42n6LJ19kSnbeRbdQZE5dSeE2LBol1OwJD3X1BQvFTAsa8ReeDA==}
 
   core-util-is@1.0.3:
     resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==}
@@ -5429,7 +5429,7 @@ snapshots:
 
   core-js-pure@3.37.1: {}
 
-  core-js@3.39.0: {}
+  core-js@3.45.0: {}
 
   core-util-is@1.0.3: {}
 
