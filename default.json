@@ -1,7 +1,7 @@
 {
   "description": "The Unicorns Renovate Shareable Config",
   "extends": [
-    "config:base",
+    "config:recommended",
     ":dependencyDashboard",
     ":dependencyDashboardApproval",
     ":labels(renovate, dependencies)",
