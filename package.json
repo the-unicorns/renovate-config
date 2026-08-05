@@ -13,8 +13,8 @@
     "access": "public"
   },
   "devDependencies": {
-    "core-js": "3.50.0",
-    "renovate": "42.96.3",
+    "core-js": "3.49.0",
+    "renovate": "44.13.1",
     "tap-junit": "5.0.4",
     "tap-markdown": "^1.2.1",
     "tape": "^5.7.5"
