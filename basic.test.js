@@ -1,13 +1,21 @@
-const test = require("tape");
+import test from "tape";
+import { execFileSync } from "node:child_process";
+import { createRequire } from "node:module";
+
+const require = createRequire(import.meta.url);
 const pkgJson = require("./default.json");
 
 // Validate the config with Renovate
-require("renovate/dist/config-validator");
+execFileSync(
+  "node_modules/.bin/renovate-config-validator",
+  ["--no-global", "default.json"],
+  { stdio: "inherit" },
+);
 
 const renovatePkgExtends = pkgJson.extends;
 
 const baseRules = [
-  "config:base",
+  "config:recommended",
   ":dependencyDashboard",
   ":dependencyDashboardApproval",
   ":labels(renovate, dependencies)",
