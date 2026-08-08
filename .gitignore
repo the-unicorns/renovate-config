@@ -28,3 +28,4 @@ dist
 
 # project specifics
 test-results/
+tap-output.txt

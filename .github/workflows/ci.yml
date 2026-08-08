@@ -31,4 +31,12 @@ jobs:
         run: pnpm install
 
       - name: Test
-        run: pnpm test
+        run: |
+          set -o pipefail
+          pnpm test | tee tap-output.txt
+
+      # Runs even when the tests fail -- a red run is when the summary is most
+      # useful.
+      - name: Test summary
+        if: always()
+        run: node scripts/tap-summary.js < tap-output.txt >> "$GITHUB_STEP_SUMMARY"
