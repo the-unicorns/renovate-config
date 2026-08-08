@@ -9,6 +9,10 @@ on:
     branches:
       - master
 
+permissions:
+  contents: read
+  pull-requests: write
+
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -35,8 +39,24 @@ jobs:
           set -o pipefail
           pnpm test | tee tap-output.txt
 
-      # Runs even when the tests fail -- a red run is when the summary is most
-      # useful.
-      - name: Test summary
-        if: always()
-        run: node scripts/tap-summary.js < tap-output.txt >> "$GITHUB_STEP_SUMMARY"
+      # The steps below run even when the tests fail -- a red run is when the
+      # summary is most useful.
+      - name: Build test summary
+        if: always() && hashFiles('tap-output.txt') != ''
+        run: node scripts/tap-summary.js < tap-output.txt > tap-summary.md
+
+      - name: Publish job summary
+        if: always() && hashFiles('tap-summary.md') != ''
+        run: cat tap-summary.md >> "$GITHUB_STEP_SUMMARY"
+
+      # Skipped for pull requests from forks: those get a read-only
+      # GITHUB_TOKEN, so posting would fail rather than degrade.
+      - name: Comment summary on PR
+        if: >-
+          always() && hashFiles('tap-summary.md') != ''
+          && github.event_name == 'pull_request'
+          && github.event.pull_request.head.repo.full_name == github.repository
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR: ${{ github.event.pull_request.number }}
+        run: scripts/pr-comment.sh
