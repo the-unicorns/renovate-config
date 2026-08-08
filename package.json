@@ -3,6 +3,7 @@
   "version": "3.1.0",
   "description": "The Unicorns Renovate Shareable Config",
   "main": "index.js",
+  "packageManager": "pnpm@11.20.0",
   "repository": "git@github.com:the-unicorns/renovate-config.git",
   "author": "Hans Jakob Emmel",
   "license": "MIT",
