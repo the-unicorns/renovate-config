@@ -19,10 +19,11 @@ jobs:
     steps:
       - uses: actions/checkout@v7
 
+      # No version input: it is read from the packageManager field in
+      # package.json, so pnpm is pinned in one place.
       - uses: pnpm/action-setup@v6
         name: Install pnpm
         with:
-          version: 11
           standalone: true
 
       - name: Install Node
