@@ -9,6 +9,7 @@ const renovatePkgExtends = pkgJson.extends;
 
 const baseRules = [
   "config:recommended",
+  "security:minimumReleaseAgeNpm",
   ":dependencyDashboard",
   ":dependencyDashboardApproval",
   ":labels(renovate, dependencies)",
