@@ -2,6 +2,7 @@
   "description": "The Unicorns Renovate Shareable Config",
   "extends": [
     "config:recommended",
+    "security:minimumReleaseAgeNpm",
     ":dependencyDashboard",
     ":dependencyDashboardApproval",
     ":labels(renovate, dependencies)",
