@@ -10,6 +10,13 @@
 
 * Change from masterIssue to depdencyDashboard
 
+## [3.2.0](https://github.com/the-unicorns/renovate-config/compare/v3.1.0...v3.2.0) (2026-08-12)
+
+
+### Features
+
+* hold npm updates for three days ([#152](https://github.com/the-unicorns/renovate-config/issues/152)) ([03f04bf](https://github.com/the-unicorns/renovate-config/commit/03f04bfbaef5aee7ffc4beba1b8ca6c2247402c4))
+
 ## [3.1.0](https://github.com/the-unicorns/renovate-config/compare/v3.0.2...v3.1.0) (2026-08-05)
 
 
