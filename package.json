@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "core-js": "3.50.0",
-    "renovate": "44.14.12",
+    "renovate": "44.59.0",
     "tape": "^5.10.2"
   }
 }
